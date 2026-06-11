@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
+<<<<<<< HEAD
   background: #f4f4f4;
 }
 
@@ -9,6 +10,16 @@ header {
   color: white;
   text-align: center;
   padding: 20px;
+=======
+  background: #eef2f7;
+}
+
+header {
+  background: #0f172a;
+  color: white;
+  text-align: center;
+  padding: 25px;
+>>>>>>> first
 }
 
 .news-container {
@@ -18,20 +29,35 @@ header {
 
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+<<<<<<< HEAD
   gap: 20px;
+=======
+  gap: 25px;
+>>>>>>> first
 }
 
 .news-card {
   background: white;
+<<<<<<< HEAD
   border-radius: 10px;
   overflow: hidden;
 
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+=======
+  border-radius: 12px;
+  overflow: hidden;
+
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+>>>>>>> first
   transition: transform 0.3s;
 }
 
 .news-card:hover {
+<<<<<<< HEAD
   transform: translateY(-5px);
+=======
+  transform: translateY(-8px);
+>>>>>>> first
 }
 
 .news-card img {
@@ -41,31 +67,56 @@ header {
 }
 
 .news-content {
+<<<<<<< HEAD
   padding: 15px;
+=======
+  padding: 18px;
+>>>>>>> first
 }
 
 .news-content h2 {
   margin-top: 0;
   margin-bottom: 10px;
+<<<<<<< HEAD
 }
 
 .news-content p {
   color: #555;
   line-height: 1.5;
+=======
+  color: #0f172a;
+}
+
+.news-content p {
+  color: #444;
+  line-height: 1.6;
+>>>>>>> first
 }
 
 @media (max-width: 900px) {
   .news-container {
+<<<<<<< HEAD
     grid-template-columns: repeat(2, 1fr);
+=======
+      grid-template-columns: repeat(2, 1fr);
+>>>>>>> first
   }
 }
 
 @media (max-width: 600px) {
   .news-container {
+<<<<<<< HEAD
     grid-template-columns: 1fr;
   }
 
   header h1 {
     font-size: 24px;
+=======
+      grid-template-columns: 1fr;
+  }
+
+  header h1 {
+      font-size: 24px;
+>>>>>>> first
   }
 }
