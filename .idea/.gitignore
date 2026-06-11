@@ -1,10 +1,25 @@
-# Default ignored files
+# IntelliJ IDEA
 /shelf/
 /workspace.xml
-# Ignored default folder with query files
 /queries/
-# Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
-# Editor-based HTTP Client requests
 /httpRequests/
+# Visual Studio
+.vs/
+# Build folders
+bin/
+obj/
+out/
+build/
+dist/
+# Logs
+*.log
+# Node modules
+node_modules/
+# Environment files
+.env
+# Cache
+.cache/
+.tmp/
+temp/
